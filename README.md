@@ -152,3 +152,23 @@ array.filter(func) // true : 유지
 5. type
 
 - typeof variable
+
+# 5. WEATHER
+
+1. navigator
+
+- navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+- openweathermap.org
+
+2. URL
+
+```
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => {
+    const city = document.querySelector("#weather span:last-child");
+    const weather = document.querySelector("#weather span:first-child");
+    city.innerText = data.name;
+    weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
+});
+```
