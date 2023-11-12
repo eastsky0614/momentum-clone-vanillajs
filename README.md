@@ -119,3 +119,36 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImage}`;
 document.body.appendChild(bgImage);
 ```
+
+# 4. TO DO LIST
+
+1. button
+
+```
+parentNode(console.dir(event.target))
+parentNode(console.dir(event.target.parentElement))
+parentNode(console.dir(event.target.parentElement.innerText))
+```
+
+2. Make Array to String
+
+```
+JSON.stringify(array)
+JSON.parse(string)
+```
+
+3. Array shorter way
+
+- (item) =>
+
+4. filter
+
+```
+function func(){
+}
+array.filter(func) // true : 유지
+```
+
+5. type
+
+- typeof variable
