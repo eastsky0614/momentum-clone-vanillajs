@@ -101,4 +101,21 @@ date.getSeconds()
 String().padStart(2, "0")
 ```
 
-3. QUOTES AND BACKGROUND
+# 3. QUOTES AND BACKGROUND
+
+1. Random
+
+```
+Math.random()
+Math.round()
+Math.ceil()
+Math.floor()
+```
+
+2. Make Element
+
+```
+const bgImage = document.createElement("img");
+bgImage.src = `img/${chosenImage}`;
+document.body.appendChild(bgImage);
+```
