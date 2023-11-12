@@ -2,7 +2,7 @@
 
 Javascript for Beginners
 
-# Login
+# 1. LOGIN
 
 1. console.dir() : The method console.dir() displays an interactive list of the properties of the specified JavaScript object.
 
@@ -69,3 +69,36 @@ greeting.innerText = `Hello ${username}`;
 - setItem(key, value)
 - getItem(key)
 - removeItem(key)
+
+# 2. CLOCK
+
+1. Interval
+
+```
+setInterval(func, 5000) // 5000ms(5s)
+```
+
+2. Timeout
+
+```
+setTimeout(func, 5000)
+```
+
+3. Date
+
+```
+const date = new Date()
+date.getDate()
+date.getDay()
+date.getFullYear()
+date.getHours()
+date.getMinutes()
+date.getSeconds()
+```
+
+```
+"".padStart(2, "0")
+String().padStart(2, "0")
+```
+
+3. QUOTES AND BACKGROUND
